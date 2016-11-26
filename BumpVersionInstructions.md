@@ -5,6 +5,6 @@
 * Update Version Number in metadata.xml
 * Update release notes in metadata.xml
   * build should automatically update package.nuspec and sharedAssemblyInfo.cs
-* run 'powershell GenerateNugetPackages.ps1' from a visual studio command prompt (nuget needs to be on the path too)
-* run 'powershell PublishNugetPackages.ps1' from a visual studio command prompt (nuget needs to be on the path and API key needs to be set)
+* run 'powershell GenerateNugetPackages.ps1' from nuget package manager console inside visual studio (uses ENV.DTE stuff to build)
+* run 'powershell PublishNugetPackages.ps1' from nuget package manager console inside visual studio (uses ENV.DTE stuff to build)
 * create tag for release on github

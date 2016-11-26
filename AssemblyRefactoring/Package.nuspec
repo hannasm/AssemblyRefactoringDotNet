@@ -15,6 +15,11 @@
     * This initial release covers the basic use case for which the library, thus far, has been developed, and nothing more
   </releaseNotes>
     <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <group>
+        <dependency id="Mono.Cecil" version="0.9.6.4" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
     <file src="..\readme.md" target="content" />
@@ -22,10 +27,5 @@
     <file src="bin\Release\AssemblyRefactoring.dll" target="lib" />
     <file src="bin\Release\AssemblyRefactoring.pdb" target="lib" />
   </files>
-  <dependencies>
-    <group>
-      <dependency id="Mono.Cecil" version="0.9.6.4" />
-    </group>
-  </dependencies>
 </package>
 <!-- vim: set expandtab ts=2 sw=2:  -->

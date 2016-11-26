@@ -19,7 +19,5 @@ if (!$metadata) {
 
 $version = $metadata.version;
 
-publish $version (join-path $solutionDir ('ExpressiveAssertions.' + $version + '.nupkg'));
-publish $version (join-path $solutionDir ('ExpressiveAssertions.' + $version + '.symbols.nupkg'));
-publish $version (join-path $solutionDir ('ExpressiveAssertions.MSTest.' + $version + '.nupkg'));
-publish $version (join-path $solutionDir ('ExpressiveAssertions.MSTest.' + $version + '.symbols.nupkg'));
+publish $version (join-path $solutionDir ('AssemblyRefactoring.' + $version + '.nupkg'));
+publish $version (join-path $solutionDir ('AssemblyRefactoring.' + $version + '.symbols.nupkg'));

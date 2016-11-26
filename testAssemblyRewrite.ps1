@@ -16,4 +16,4 @@ $x = new-object AssemblyRefactoring.AssemblyRefactoringContext $targetDll
 $x.RenameNamespace($oldNS, $newNS);
 $x.RenameAssemblyReference($oldAssemRef, $newAssemRef);
 $x.RenameAssemblyName($oldAssem,$newAssem);
-$x.Save((join-path (pwd).path 'test\ExpressiveLogging.V2.TextWriterLogging.dll'))
+$x.Save( $newDll )
